@@ -14,7 +14,7 @@ This repository hosts a Jupyter Notebook for reproducing some of the analysis an
 
 Clone this repo either by using the command-line:
 
-```sh
+```shell
 git clone https://github.com/COMPUTE-Jupyter-course/project-for-compute-jupyter-2022-jstrobaek.git
 ```
 
@@ -28,11 +28,11 @@ To run the Notebook it is required to have some specific python packages install
 
 From the base directory of your cloned version of this repository, execute the following command:
 
-```sh
+```shell
 conda env create -f environment.yml
 ```
 
-This will create an Anaconda environment named `xl_viz` that can be activated with `conda activate xl_viz`. If you wish to rename the environment change the value assigned to the `name: ` key in the [environment file](environment.yml).
+This will create an Anaconda environment named `xl_viz` that can be activated with `conda activate xl_viz`. If you wish to rename the environment change the value assigned to the `name` key in the [environment file](environment.yml).
 
 #### Data
 
