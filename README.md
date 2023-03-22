@@ -1,5 +1,7 @@
 # Identification of Protective Antibodies using _in silico_ Protein Docking coupled with Targeted Chemical Cross-Linking Mass Spectrometry
 
+This repository was created to complete the [project work](https://github.com/mlund/jupyter-course#project-work) assigned through [this](https://github.com/mlund/jupyter-course) Jupyter Notebook course.
+
 ## Abstract
 
 Central to our interaction with pathogens is the relationship between antigen and antibody. Where some antibodies, through the seemingly stochastic natural process of affinity maturation, will award an individual immunity. The success is mediated by several factors—e.g. epitope selectivity and binding affinity—governed by the structural properties of the binding pocket, informed by the residues in the amino acid sequence. Elucidating this selective assembly process is of great interest for vaccine discovery. But the inherent complexity of these biological processes impose multiple challenges for both data generation and subsequent data analysis. However, recent advances in protein structure prediction present new opportunities for exploring antibody repertoires by awarding a higher precision to _in silico_ analysis. Using these advances in tandem with chemical cross-linking protein mass spectrometry could shed new light on the maturation process, and the potential formation of protective antibodies. This exploratory study tries to streamline the analysis of B-cell receptor repertoires and chemical cross-linking mass spectrometry data.
