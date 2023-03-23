@@ -1,6 +1,7 @@
 misc/
 data/
 images/
+output/
 __pycache__/
 .ipynb_checkpoints/
 .vscode/
