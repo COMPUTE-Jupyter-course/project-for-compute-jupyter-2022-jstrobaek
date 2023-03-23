@@ -1,10 +1,6 @@
-jupyter-course/
-vid/
-my_day_1.ipynb
+misc/
+data/
+images/
+__pycache__/
 .ipynb_checkpoints/
 .vscode/
-trash.ipynb
-data/
-data.zip
-images/gr1_lrg.jpg
-__pycache__/
