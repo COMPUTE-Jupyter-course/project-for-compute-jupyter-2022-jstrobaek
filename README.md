@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7768644.svg)](https://doi.org/10.5281/zenodo.7768644)
+
 # Identification of Protective Antibodies using _in silico_ Protein Docking coupled with Targeted Chemical Cross-Linking Mass Spectrometry
 
 This repository was created to complete the [project work](https://github.com/mlund/jupyter-course#project-work) assigned through [this](https://github.com/mlund/jupyter-course) Jupyter Notebook course.
@@ -43,4 +45,4 @@ python3 -m ipykernel install --prefix="$CONDA_PREFIX" --name 'xl_viz'
 
 #### Data
 
-For now, the data required to reproduce the (current) analysis can be downloaded [here](https://drive.google.com/file/d/1C6LvIg48siHp95bZ-W46otlra1EVjaTP/view?usp=share_link). Unzip in the git-repo base directory to enable Notebook execution.
+To be able to run the Notebook and reproduce the related figures it is required to [download](https://zenodo.org/record/7768644/files/supplement_data.zip?download=1) the associated supplement data from [the Zenodo archive](https://doi.org/10.5281/zenodo.7768644). You also need to unzip it in the cloned repo base directory.
