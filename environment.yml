@@ -12,5 +12,7 @@ dependencies:
     - seaborn
     - biopython=1.79
     - nglview
+    - geos
     - pip:
         - pdb-tools
+        - git+https://github.com/jordisr/cellscape.git

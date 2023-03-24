@@ -34,6 +34,13 @@ conda env create -f environment.yml
 
 This will create an Anaconda environment named `xl_viz` that can be activated with `conda activate xl_viz`. If you wish to rename the environment change the value assigned to the `name` key in the [environment file](environment.yml).
 
+Before you run the Notebook you should add the new environment to the kernel list (make sure to activate it first):
+
+```shell
+conda activate xl_viz && \
+python3 -m ipykernel install --prefix="$CONDA_PREFIX" --name 'xl_viz'
+```
+
 #### Data
 
 For now, the data required to reproduce the (current) analysis can be downloaded [here](https://drive.google.com/file/d/1C6LvIg48siHp95bZ-W46otlra1EVjaTP/view?usp=share_link). Unzip in the git-repo base directory to enable Notebook execution.
